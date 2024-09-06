@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+h1, h2 {
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+}
+
+body, input, textarea , h3 , a{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h3 {
+    color: rgb(20, 44, 28);
+}
+
+#about,
+#contact {
+box-sizing: border-box;
+text-align: justify;
+background-color: rgb(52, 94, 66);
+color: white;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(52, 94, 66);
+    color: white;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size:  18px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    background-color: rgb(190, 224, 229);
+    display: block;
+    flex-wrap: wrap;
+    align-items: justify;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+section .container h2{
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+section .container p{
+    font-size: larger;
+    text-align: justify;
+    flex: 1;
+    padding: 10px;
+    color: black;
+    margin-left: 34px;
+}
+
+.img-fachada {
+    float: left;
+    max-width: 40%;
+    height: auto;
+    margin-right: 20px;
+    margin-top: 65px;
+}
+
+section .contact-form{
+    display: flex;
+    justify-content: space-between;
+}
+section.contact-form form {
+    display: flex;
+    
+}
+
+section .container h2 {
+    background-color: rgb(52, 94, 66);
+    color: white;
+}
+
+form input,
+form textarea
+form button {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+    width: 400px;
+}
+
+form button {
+    background-color: rgb(52, 94, 66);
+    color: rgb(247, 247, 252);
+    margin-bottom: 20px;
+    height: 40px;
+    width: 400px;
+    border: none;
+    cursor: pointer;
+}
+
+section .contact-form {
+    display: flex;
+    align-items: center;
+    justify-items: first baseline;
+}
+
+.social-links img {
+    width: 24px;
+}
+
+.social-links li {
+    display: inline;
+    align-items: center;
+    text-decoration: none;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(52, 94, 66);;
+    margin-top: 16px;
+    text-align: center;
+}
